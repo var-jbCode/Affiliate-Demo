@@ -1,0 +1,267 @@
+/* Reset */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+/* Main Styling */
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility */
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+img {
+  border-style: none;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+.bg-light{
+  color: #1c1e21;
+  background: #2196f3;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #2196f3;
+  background: #1c1e21;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500
+}
+
+
+.btn-light{
+  background: #2196f3;
+  color: #1c1e21;
+}
+
+.btn:hover{
+  background: #2196f3;
+  color: #1c1e21;
+}
+
+.btn-light:hover{
+  background: white;
+  color: #2196f3;
+}
+
+.clr{
+  clear: both;
+}
+
+.py-1 { padding: 10px 0;}
+.py-2 { padding: 20px 0;}
+.py-3 { padding: 30px 0;}
+
+.l-heading {
+text-align: center;
+font-size: 25px;
+}
+
+.bg-primary{
+  background: #1c1e21;
+}
+
+/* Navbar */
+#navbar {
+    background: #1c1e21;
+    color: #2196f3;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: #2196f3;
+  }
+    
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  #navbar ul li a:hover, 
+  #navbar ul li a.current {
+    background: #2196f3;
+    color: #1c1e21;
+  }
+
+.navbar-logo {
+    width:2em;
+    height:3em;
+    float: left;
+    margin-top: auto;
+    padding: 10px;
+}
+
+#navbar-title{
+    width: 130px;
+    height:3em;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+  }
+
+  #navbar-title:hover{
+    background: #2196f3;
+    color: #1c1e21;
+  }
+
+/* Showcase Link */
+
+#affiliate-link {
+    background: url(../img/ipad.jpg) no-repeat 
+    center center/cover;
+    height: 600px;
+    background-color:#1c1e21;
+}
+
+#affiliate-link .affiliate-link-content {
+    color: #2196f3;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#affiliate-link .affiliate-link-content a{
+  margin-top: 50px;
+}
+
+/* Home Page Image */
+#home-page{
+  background: url(../img/welcome.jpg) no-repeat 
+  center center/cover;
+  height: 600px;
+  background-color:#1c1e21 ;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img-home{
+  float: left;
+  width: 50%;
+  background: url('../img/work.jpg') no-repeat 
+  center center/cover;;
+  min-height: 100%;
+}
+
+#home-info .info-img-affiliate{
+  float: left;
+  width: 50%;
+  background: url('../img/onlineMarketing.jpg') no-repeat 
+  center center/cover;;
+  min-height: 100%;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+section{
+  color: #2196f3;
+  background-color:#1c1e21;
+}
+
+/* Affiliate Banner */
+
+.bottom-banner{
+  background: url(../img/huts.jpeg) no-repeat 
+  center center/cover;
+  height: 200px;
+  display: block;
+  border: #2196f3 10px solid;
+  color: #1c1e21;
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+}
+
+.bottom-banner p{
+  color: yellow;
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+}
+
+/* Voucher Page */
+
+#voucher-main {
+  height: 600px;
+  background: url("../img/percentage.jpg") no-repeat center center/cover;
+  padding-top: 40px;
+}
+
+
+#voucher-main .voucher {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#voucher-main .voucher-code {
+    width: 100px;
+    float: left;
+    margin-right: 60px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+/* Footer */
+
+#main-footer{
+  text-align: center;
+  background: #1c1e21;
+  color: #2196f3;
+  padding: 5px;
+  border: 1px solid #2196f3 ;
+}
