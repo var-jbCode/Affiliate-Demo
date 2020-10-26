@@ -33,5 +33,14 @@
 <footer id="main-footer">
     <p>Affiliate Demo&copy; 2020</p>
 </footer>
+    <script>
+     if (window.location.search.includes('Aff=uSnoop')) {
+            document.cookie = 'Aff=uSnoop';
+            console.log('Found Aff=uSnoop');
+     };
+     if (decodeURIComponent(document.cookie).split(';').includes("Aff=uSnoop")) {
+        console.log('Running segment tag');
+     };
+    </script>
 </body>
 </html>
